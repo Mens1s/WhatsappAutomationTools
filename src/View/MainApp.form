@@ -111,7 +111,7 @@
                       <text value="Numbers"/>
                     </properties>
                   </component>
-                  <component id="91c75" class="javax.swing.JTextField" binding="fld_sh_user_name">
+                  <component id="91c75" class="javax.swing.JTextField" binding="fld_sh_phone_num">
                     <constraints>
                       <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                         <preferred-size width="150" height="-1"/>
@@ -148,7 +148,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <scrollpane id="c795f">
+              <scrollpane id="c795f" binding="scrl_msg_list">
                 <constraints>
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>

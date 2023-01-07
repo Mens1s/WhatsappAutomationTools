@@ -43,11 +43,28 @@ public class Helper {
                 message = "This number already in list!";
                 title = "Check number";
                 break;
+            case "nInList":
+                message = "This number not in list!";
+                title = "Check number";
+                break;
+            case "done":
+                message = "Your operation has done successfully!";
+                title = "Done!";
+                break;
             default:
                 title = "Some Errors";
         }
 
         JOptionPane.showMessageDialog(null, message, title, JOptionPane.INFORMATION_MESSAGE);
 
+    }
+
+    public static boolean confirm(String text) {
+        switch (text){
+            case "sure":
+                text = "Do you want to do this? ";
+                break;
+        }
+        return JOptionPane.showConfirmDialog(null,text,"Confirm",JOptionPane.YES_NO_OPTION) == 0;
     }
 }
